@@ -162,8 +162,3 @@ from this ticket (distinct from the source-level relevance check in
 the earlier pipeline, which operates on whole collections, not
 individual items).
 
-## Dependencies not yet built
-
-- **T-078 (dedup / duplicate clusters)**: `originality` defaults to `1.0` with a note until this exists, per the ticket's own fallback instruction.
-- **T-076 (source_weight field)**: the numeric `source_weight` this ticket needs doesn't formally exist as its own field yet — assumption 5 above is a stand-in.
-- **T-025, T-027**: listed as blocking dependencies on the parent ticket; confirm current status directly in Jira rather than assuming from this README.
