@@ -1,0 +1,5 @@
+pymongo[aws]
+dotenv
+requests
+fastapi[all]
+python-dotenv
